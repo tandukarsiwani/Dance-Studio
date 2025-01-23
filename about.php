@@ -12,11 +12,15 @@ if (!isset($_SESSION['username'])) {
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>About us</title>
+  <meta name="description" content="Dance Fusion Studio is a creative space offering dance classes for all ages. Join our community of passionate dancers and improve your skills." />
+  <meta name="keywords" content="Dance Studio, Dance Classes, Ballet, Hip-Hop, Contemporary Dance, Tap Dance, Jazz, Dance Fusion, Community" />
+  <meta name="author" content="Dance Fusion Studio" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>About Us | Dance Fusion Studio</title>
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" type="text/css" href="css/dropdown.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+  <link rel="icon" href="images/favicon.ico" type="image/x-icon" />
 </head>
 
 <body>
@@ -53,42 +57,36 @@ if (!isset($_SESSION['username'])) {
       </ul>
     </nav>
   </header>
+
   <section class="about-us" id="fullAbout">
     <div class="about">
-      <img src="https://i.ibb.co/Rb1sVsT/about-us.png" class="pic" />
+      <img src="https://i.ibb.co/Rb1sVsT/about-us.png" class="pic" alt="Dance Fusion Studio - About Us Image" />
       <div class="text">
-        <h3>About Us</h3>
-        <h5>Dance Fusion & <span>Studio</span></h5>
-        <p>Dance Fusion Studio is more than just a place to dance; it is a vibrant, community-driven space where
-          passion, artistry, and movement come to life. Our mission is to inspire creativity, confidence, and
-          self-expression through a diverse array of dance styles taught by a team of experienced, passionate, and
-          dedicated instructors. We believe in fostering a love for dance in a supportive and inclusive environment,
-          where individuals of all ages and skill levels can thrive. From beginners taking their first steps to seasoned
-          dancers honing their craft, our classes are designed to challenge, motivate, and empower every participant.
-          Beyond technique and performance, we strive to nurture personal growth, encourage lifelong friendships, and
-          create unforgettable experiences. At Dance Fusion Studio, every dancer becomes part of a close-knit community
-          united by the joy of movement, the rhythm of music, and the shared pursuit of excellence.</p>
+        <h1>About Dance Fusion Studio</h1>
+        <h2>Inspiring Creativity Through Dance</h2>
+        <p>Dance Fusion Studio is more than just a place to dance; it is a vibrant, community-driven space where passion, artistry, and movement come to life. Our mission is to inspire creativity, confidence, and self-expression through a diverse array of dance styles taught by a team of experienced, passionate, and dedicated instructors. We believe in fostering a love for dance in a supportive and inclusive environment, where individuals of all ages and skill levels can thrive.</p>
+        <p>From beginners taking their first steps to seasoned dancers honing their craft, our classes are designed to challenge, motivate, and empower every participant. Beyond technique and performance, we strive to nurture personal growth, encourage lifelong friendships, and create unforgettable experiences. At Dance Fusion Studio, every dancer becomes part of a close-knit community united by the joy of movement, the rhythm of music, and the shared pursuit of excellence.</p>
       </div>
     </div>
-    </div>
   </section>
+
   <footer>
     <div>
-      <span>Copyright © 2024 All Rights Reserved</span>
+      <span>&#169; 2025 Dance Fusion Studio. All Rights Reserved.</span>
       <span class="link">
-        <a href="https://www.facebook.com" class="social_media_icon"><i class="fab fa-facebook-f"></i></a>
-        <a href="https://twitter.com" class="social_media_icon"><i class="fab fa-twitter"></i></a>
-        <a href="https://www.instagram.com" class="social_media_icon"><i class="fab fa-instagram"></i></a>
+        <a href="https://www.facebook.com" class="social_media_icon" target="_blank" rel="noopener noreferrer"><i class="fab fa-facebook-f"></i></a>
+        <a href="https://twitter.com" class="social_media_icon" target="_blank" rel="noopener noreferrer"><i class="fab fa-twitter"></i></a>
+        <a href="https://www.instagram.com" class="social_media_icon" target="_blank" rel="noopener noreferrer"><i class="fab fa-instagram"></i></a>
       </span>
     </div>
   </footer>
+
   <script>
     function myFunction() {
       document.getElementById("myDropdown").classList.toggle("show");
     }
 
     window.onclick = function (event) {
-      // checks if the click is on the button or its children and hides the dropdown based on that
       if (!event.target.closest('.dropbtn')) {
         var dropdowns = document.getElementsByClassName("dropdown-content");
         for (var i = 0; i < dropdowns.length; i++) {

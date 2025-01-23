@@ -13,7 +13,11 @@ if (isset($_SESSION['username'])) {
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Signup Form</title>
+  <meta name="description" content="Sign up for Dance Fusion Studio to start your journey in the art of dance. Join our community of passionate dancers and explore various dance styles.">
+  <meta name="keywords" content="Dance Fusion Studio, dance signup, dance classes, join dance classes, beginner dance, professional dance training, dance community">
+  <meta name="author" content="Dance Fusion Studio">
+  <meta name="robots" content="index, follow">
+  <title>Signup - Dance Fusion Studio</title>
   <link rel="stylesheet" href="css/signup.css">
 </head>
 

@@ -12,11 +12,17 @@ if (!isset($_SESSION['username'])) {
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>contact</title>
+    <title>Contact Us - Dance Fusion Studio | Best Dance Classes and Studio</title>
+    <meta name="description" content="Contact Dance Fusion Studio for inquiries about dance classes, products, and more. We offer the best dance experience. Reach us via email, phone, or visit our studio.">
+    <meta name="keywords" content="contact, dance studio, dance classes, dance fusion studio">
+    <meta property="og:title" content="Contact Us - Dance Fusion Studio">
+    <meta property="og:description" content="Get in touch with Dance Fusion Studio for dance classes, events, and more.">
+    <meta property="og:url" content="http://www.dancefusionstudio.com/contact.php">
+    <meta property="og:type" content="website">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/dropdown.css">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
-    <script>
+    <script defer>
         function validateForm(event) {
             var isValid = true;
             var firstName = document.getElementById('ijowk-3').value;
@@ -48,6 +54,29 @@ if (!isset($_SESSION['username'])) {
                 event.preventDefault();
             } else {
                 alert("Your message has been submitted successfully.");
+            }
+        }
+    </script>
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "Organization",
+            "name": "Dance Fusion Studio",
+            "url": "https://www.dancefusionstudio.com",
+            "logo": "https://example.com/logo.png",
+            "contactPoint": {
+                "@type": "ContactPoint",
+                "telephone": "+1-555-123-4567",
+                "email": "contact@fusionstudio.com",
+                "contactType": "Customer Service"
+            },
+            "address": {
+                "@type": "PostalAddress",
+                "streetAddress": "123 Fusion Studio St.",
+                "addressLocality": "Fusion",
+                "addressRegion": "Boombox",
+                "postalCode": "12345",
+                "addressCountry": "US"
             }
         }
     </script>
@@ -147,15 +176,15 @@ if (!isset($_SESSION['username'])) {
                     <div class="social-media-links mob">
                         <a class="social-icon-link" href="https://www.twitter.com" id="ix94i-2-2">
                             <img class="link-img image-block"
-                                src="https://workik-widget-assets.s3.amazonaws.com/Footer1-83/v1/images/Icon-twitter.png">
+                                src="https://workik-widget-assets.s3.amazonaws.com/Footer1-83/v1/images/Icon-twitter.png" alt="Twitter Logo">
                         </a>
                         <a class="social-icon-link" href="https://www.facebook.com" id="itixd">
                             <img class="link-img image-block"
-                                src="https://workik-widget-assets.s3.amazonaws.com/Footer1-83/v1/images/Icon-facebook.png">
+                                src="https://workik-widget-assets.s3.amazonaws.com/Footer1-83/v1/images/Icon-facebook.png" alt="Facebook Logo">
                         </a>
                         <a class="social-icon-link" href="https://www.instagram.com" id="izldf-2-2">
                             <img class="link-img image-block"
-                                src="https://workik-widget-assets.s3.amazonaws.com/Footer1-83/v1/images/Icon-instagram.png">
+                                src="https://workik-widget-assets.s3.amazonaws.com/Footer1-83/v1/images/Icon-instagram.png" alt="Instagram Logo">
                         </a>
                     </div>
                     <div class="map-box container-block">
@@ -189,7 +218,7 @@ if (!isset($_SESSION['username'])) {
 
     <footer>
         <div>
-            <span>Copyright © 2024 All Rights Reserved</span>
+            <span>@2025 Dance Fusion Studio. All Rights Reserved.</span>
             <span class="link">
                 <a href="https://www.facebook.com" class="social_media_icon"><i class="fab fa-facebook-f"></i></a>
                 <a href="https://twitter.com" class="social_media_icon"><i class="fab fa-twitter"></i></a>
@@ -203,7 +232,6 @@ if (!isset($_SESSION['username'])) {
         }
 
         window.onclick = function (event) {
-            // checks if the click is on the button or its children and hides the dropdown based on that
             if (!event.target.closest('.dropbtn')) {
                 var dropdowns = document.getElementsByClassName("dropdown-content");
                 for (var i = 0; i < dropdowns.length; i++) {

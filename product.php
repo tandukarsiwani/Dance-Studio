@@ -24,10 +24,14 @@ if ($result->num_rows > 0) {
 <html>
 
 <head>
-    <meta charset="utf-8">
+<meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Product</title>
+    <title>Products - Dance Fusion Studio</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Explore a wide range of dance accessories and equipment at Dance Fusion Studio. Enjoy holiday sales and exclusive discounts on premium dance products.">
+    <meta name="keywords" content="Dance products, dance accessories, dance equipment, dance gear, holiday sale, Dance Fusion Studio">
+    <meta name="author" content="Dance Fusion Studio">
+    <meta name="robots" content="index, follow">
     <link rel="stylesheet" href="css/product.css">
     <link rel="stylesheet" href="css/dropdown.css">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
@@ -81,7 +85,7 @@ if ($result->num_rows > 0) {
                     <div class="product">
                         <div class="product-content">
                             <div class="product-img">
-                                <img src="<?php echo htmlspecialchars($product['image_url']); ?>" alt="product image">
+                                <img src="<?php echo htmlspecialchars($product['image_url']); ?>" alt="<?php echo htmlspecialchars($product['title']); ?>">
                             </div>
                             <div class="product-btns">
                                 <button type="button" class="btn-cart" data-product-id="<?php echo $product['id']; ?>">
@@ -129,7 +133,7 @@ if ($result->num_rows > 0) {
 
     <footer>
         <div>
-            <span>Copyright © 2024 All Rights Reserved</span>
+            <span>@2025 Dance Fusion Studio. All Rights Reserved.</span>
             <span class="link">
                 <a href="https://www.facebook.com" class="social_media_icon"><i class="fab fa-facebook-f"></i></a>
                 <a href="https://twitter.com" class="social_media_icon"><i class="fab fa-twitter"></i></a>
