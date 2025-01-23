@@ -16,16 +16,16 @@ body {
 }
 
 .logo {
-  font-family: 'Poppins', sans-serif; /* Modern, clean font */
-  font-weight: 800; /* Bold for emphasis */
-  text-align: center; /* Center alignment */
-  color: #ffffff; /* White text to pop against grey */
-  background: linear-gradient(135deg, #ff8c00, #ffa500); /* Subtle orange gradient */
+  font-family: 'Poppins', sans-serif;
+  font-weight: 800; 
+  text-align: center; 
+  color: #ffffff;
+  background: linear-gradient(135deg, #ff8c00, #ffa500); 
   -webkit-background-clip: text; 
-  -webkit-text-fill-color: transparent; /* Gradient effect on text */
-  text-transform: uppercase; /* Uppercase for logo-like effect */
-  letter-spacing: 2px; /* Extra space between letters for a premium look */
-  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4); /* Soft shadow for depth */
+  -webkit-text-fill-color: transparent; 
+  text-transform: uppercase; 
+  letter-spacing: 2px;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4);
 }
 
 header {
@@ -90,7 +90,7 @@ header a:hover, footer a:hover {
   height: 100vh;
   width: 100%;
   position: relative;
-  background: url("../assets/background-banner.jpg");
+  background: url("../assets/background.jpg");
   background-position: center 65%;
   background-size: cover;
   background-attachment: fixed;
@@ -252,6 +252,10 @@ section.about {
 .about .team {
   text-align: left;
   width: 100%;
+}
+
+#fullAbout{
+    height: 100vh;
 }
 
 .about .team ul {
@@ -1309,7 +1313,7 @@ footer a {
 }
 
 .social_media_icon:hover i {
-  color: #0077b5; /* Change color on hover */
+  color: #0077b5;
 }
 
 @media (max-width: 768px) {
@@ -1369,5 +1373,3 @@ footer a {
         font-size: 20px;
       }
     }
-
-
